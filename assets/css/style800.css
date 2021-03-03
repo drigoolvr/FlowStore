@@ -1,0 +1,82 @@
+.drop-menu {
+    display: flex;
+}
+
+.main-menu {
+    display: none;
+}
+
+.header-container {
+   justify-content: center;
+}
+
+.section-illusion {
+    background-image: url('../images/illusion-tablet.png');
+}
+
+.illusion-content {
+    align-items: center;
+}
+
+.illusion-container {
+    justify-content: center;
+}
+
+.illusion-content p {
+    text-align: center;
+}
+
+.gallery-container {
+    width: 100%;
+    padding: 10px;        
+    grid-template-areas: 
+        "gallery1"
+        "gallery2"
+        "gallery3"
+        "gallery4"       
+    ;
+}
+
+.gallery1,
+.gallery2,
+.gallery3,
+.gallery4 {
+    height: 500px;
+}
+
+.gallery2 button {
+    width: 80px;
+}
+
+.style-grid {   
+    grid-template-areas: 
+        "style1"
+        "style2"
+        "style3"
+        "style4"        
+    ;
+}
+
+.style1,
+.style2,
+.style3 {
+    height: 500px;
+}
+
+.style4 {
+    text-align: center;
+    height: 50px;
+}
+
+.footer-content {
+    flex-direction: column;
+}
+
+.footer-left-area,
+.footer-right-area {
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
